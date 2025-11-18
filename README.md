@@ -14,9 +14,7 @@ The app features a clean, mobile-first design with a dark theme to keep the focu
 | **Game Screen**| The core gameplay loop happens here.  | A large card display, "Higher" and "Lower" buttons, and the current score.  |
 | **Game Over**  | Shows results after a wrong guess.    | A "Game Over" message, your final score, the best score, and options to "Play Again" or go to the "Menu". |
 
-<p align="center">
-  <img src="assets/figma.png" alt="Mobile App Wireframes based on Figma Sketch" width="600"/>
-</p>
+
 
 ### Design Goals
 *   **Responsive Layout**: The interface is optimized for a great experience on Android devices.
