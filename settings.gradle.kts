@@ -19,5 +19,5 @@ dependencyResolutionManagement {
     }
 }
 
-rootProject.name = "SpelApp"
+rootProject.name = "higher-or-lower-game"
 include(":app")
