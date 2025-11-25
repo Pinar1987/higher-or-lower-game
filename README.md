@@ -1,4 +1,4 @@
-cd# 🃏 Higher or Lower - The Card Guessing Game
+🃏 Higher or Lower - The Card Guessing Game
 
 Welcome to **Higher or Lower**, a classic card guessing game for Android. 
 
@@ -51,6 +51,9 @@ Card values are purely numerical. Suits (Hearts, Diamonds, Clubs, Spades) are fo
 ## 🤝 Collaborators
 
 This game was brought to life by the collaborative efforts of:
+
+https://github.com/Pinar1987/higher-or-lower-game.git
+
 
 *   **Pinar Buyukcelebi**
 *   **Mazlum Binici**
