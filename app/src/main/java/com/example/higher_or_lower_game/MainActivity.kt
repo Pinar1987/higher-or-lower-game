@@ -1,6 +1,7 @@
 package com.example.higher_or_lower_game
 
 import android.os.Bundle
+import android.widget.Button
 import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.view.ViewCompat
@@ -15,6 +16,21 @@ class MainActivity : AppCompatActivity() {
             val systemBars = insets.getInsets(WindowInsetsCompat.Type.systemBars())
             v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom)
             insets
+        }
+
+        val startGameButton = findViewById<Button>(R.id.startGameButton)
+        startGameButton.setOnClickListener {
+            startActivity(intent)
+        }
+
+        val rulesButton = findViewById<Button>(R.id.rulesButton)
+        rulesButton.setOnClickListener {
+            startActivity(intent)
+        }
+
+        val highScoreButton = findViewById<Button>(R.id.highScoreButton)
+        highScoreButton.setOnClickListener {
+            startActivity(intent)
         }
     }
 }
